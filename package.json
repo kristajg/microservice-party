@@ -1,0 +1,20 @@
+{
+  "name": "microservice-party",
+  "version": "1.0.0",
+  "description": "babby's first microservices",
+  "author": "Krista Goralczyk <krista.goralczyk@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Krista Goralczyk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "knex": "^0.12.9",
+    "pg": "^6.1.5",
+    "seneca": "^3.3.0",
+    "suspend": "^0.7.0"
+  }
+}
